@@ -1,0 +1,99 @@
+.btn--facebook {
+  color: white; }
+
+.btn--instagram {
+  color: white; }
+
+.btn--mail {
+  color: white; }
+
+.titulos, .titulos--modificaciones {
+  font-family: "Prata", sans-serif;
+  color: white; }
+
+.textos, .textos--modificaciones {
+  font-family: "Cantarell", sans-serif;
+  color: white; }
+
+.especs, .especs--modificaciones {
+  font-family: "Cantarell", sans-serif;
+  color: #1F1B24; }
+
+/*barra de navegacion*/
+li {
+  display: inline;
+  font-size: 20px; }
+  li a {
+    color: white; }
+
+#nav {
+  background: #1F1B24; }
+
+/*cierre de la barra*/
+/*Home*/
+#zabala {
+  color: #FFFFFF; }
+
+.home {
+  background-color: #121212;
+  height: 650px; }
+
+.textos--modificaciones {
+  padding-right: 150px;
+  padding-left: 150px;
+  font-size: 15px;
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1,5; } }
+
+/*cierra home*/
+/*trabajos*/
+.trabajotitulo {
+  color: #1F1B24;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Prata', sans-serif; }
+
+.especs--modificaciones {
+  font-size: 15.5px; }
+
+.bordertrabajo {
+  border: 1px solid black; }
+
+/*cierra trabajos*/
+/*contacto*/
+.titulos--modificaciones {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 50px; }
+
+.color {
+  background-color: #1F1B24; }
+
+.contacto {
+  display: flex;
+  justify-content: space-evenly; }
+
+.transicion {
+  transition: width 5s;
+  width: 300px; }
+
+.transicion:focus {
+  width: 500px; }
+
+#color {
+  color: white;
+  justify-content: center; }
+
+#textomodal {
+  color: black; }
+
+/*aca termina contacto*/
+.svg {
+  padding-bottom: 30px; }
